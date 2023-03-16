@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc 0-preprocessor -debug $CFILE -o c
+gcc -Xpreprocessor -debug $CFILE -o c
