@@ -1,4 +1,4 @@
-#inlclude < stdio.h >
+#include < stdio.h >
 /**
 * main-prints the alphabet in lowercase, and then in uppercase
 * return:0
@@ -11,8 +11,8 @@ int main(void)
 
 	for (x = 0; x < 26; x++)
 	{
-		putchar (a);
-		putchar (A);
+		putchar (alpha);
+		putchar (Alpha);
 		Alpha = Alpha + 1;
 		alpha = alpha + 1;
 	}
