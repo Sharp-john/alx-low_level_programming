@@ -8,11 +8,11 @@ int main(void)
 	char alpha = 'a';
 	int counter;
 
-	for (counter = 0; counter < 27; counter++)
+	for (counter = 0; counter < 26; counter++)
 	{
 		putchar(alpha);
-		putchar('\n');
 		alpha = alpha + 1;
 	}
+putchar('\n');
 return (0);
 }
