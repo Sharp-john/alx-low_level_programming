@@ -15,7 +15,7 @@ int main(void)
     	last_num = n % 10 ;
 	if (n > 5)
 	{
-	    printf("last of %d is %d and  is grater than 5" ,n,last_num);
+	    printf("last digit of %d is %d and  is grater than 5" ,n,last_num);
 	}
 	else if ( n == 0)
 	{
