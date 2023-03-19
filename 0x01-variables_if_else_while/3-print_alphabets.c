@@ -12,9 +12,12 @@ int main(void)
 	for (x = 0; x < 26; x++)
 	{
 		putchar (alpha);
+		alpha = alpha + 1;
+	}
+	for (x = o; x < 26; x++)
+	{
 		putchar (Alpha);
 		Alpha = Alpha + 1;
-		alpha = alpha + 1;
 	}
 putchar ('\n');
 return (0);
