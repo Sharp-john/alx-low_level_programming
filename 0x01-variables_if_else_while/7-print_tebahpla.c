@@ -8,7 +8,7 @@ int main(void)
 	char alpha = 'z';
 	int counter;
 
-	for (counter = 26; counter >= 0; counter--)
+	for (counter = 26; counter > 0; counter--)
 	{
 		putchar(alpha);
 		alpha = alpha - 1;
