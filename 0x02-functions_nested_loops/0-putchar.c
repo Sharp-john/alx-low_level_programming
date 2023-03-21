@@ -1,11 +1,10 @@
 #include <stdio.h>
 /**
 *main - print _putchar
-"Return:o
+*Return:0
 **/
 int main(void)
 {
 	printf("_putchar\n");
-return (o);
+return (0);
 }
-
