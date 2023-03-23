@@ -1,7 +1,6 @@
 #include "main.h"
 /**
-*main - printing the alpabest 10X
-*Return:0;
+* print_alphabet - print all alphabet in lowercase
 **/
 
 void print_alphabet(void)
