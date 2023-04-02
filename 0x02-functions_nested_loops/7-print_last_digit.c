@@ -9,5 +9,6 @@ int print_last_digit(int q)
 	int last;
 
 	last = q % 10;
+	_putchar(last + '0');
 	return (last);
 }
