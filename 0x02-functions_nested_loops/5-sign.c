@@ -1,6 +1,7 @@
 #include "main.h"
 /**
-*print_sign-Return 1 when +ve 0 when -ve -1 when -ve
+*print_sign - grater or less than 0
+*Return:1 when +ve Return:0 when -ve Return:-1 when -ve
 *@n:parameter
 **/
 int print_sign(int n)
